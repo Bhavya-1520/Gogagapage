@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOGAGA HOLIDAYS</title>
+    <link rel="stylesheet" href="gogaga.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="bg">
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <h1 class="head">go<span class="color">g</span>a<span class="color">g</span>a</h1>
+              
+                <form class="d-flex" role="search">
+                    <div class="dashed-box">Help</div>
+                    <div class="dashed-box"> 
+                    <img src="data:image/png;base64,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" class="img2"/>
+            
+                    </div>
+                    <div class="dashed-box1">List my cabs <span class="cs">check your cabs</span></div>
+                    <div class="dashed-box2">
+                        <img src="https://i.pinimg.com/originals/6f/56/ea/6f56eaea92287819d9ff7ebefe72a3bb.png" class="img"/>Membership<span class="coo">&#9660;</span>
+                    </div>
+                    <div class="dashed-box3">
+                        <img src="https://cdn.stockmediaserver.com/smsimg35/pv/IsignstockContributors/ISS_18896_109584.jpg?token=wi3kGpkntzTlIHfEiACvDuGuuISrZCI7b7rqNijb_Vk&class=pv&smss=53&expires=4102358400" class="img2"/>My Bookings <span class="coo">&#9660;</span> 
+                   
+                    </div>
+                    <div class="dashed-box4">
+                        
+                        <img src="https://t3.ftcdn.net/jpg/02/50/27/14/360_F_250271442_s1JYQbkJXr4yypcZ2ZTk2xEqkTnE85Zr.jpg" class="img2"/>Login or Create account<span class="coo">&#9660;</span>
+                    </div>
+                
+                   
+                </div>
+                </form>
+              </nav>
+            
+          
+    <div>
+        <h1 class="heading">Search Something memorable</h1>
+        <h1 class="headi">Making your travel a memorable experience with us</h1>
+
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+    <div class="njj">
+    <div class="cards">
+        <img src="flight.png" class="img3"/>Flights
+    </div>
+    
+    <div class="card1">
+        <img src="hotel.png" class="img4"/>Hotels
+    </div>
+    <div class="cards">
+        <img src="packages.png" class="img3"/>Packages
+    </div>
+   <div class="cards">
+    <img src="packages.png" class="img3"/>Tours
+   </div>
+   <div class="cards">
+    <img src="packages.png" class="img3"/>Transfers
+   </div> 
+   <div class="cards">
+    <img src="packages.png" class="img3"/>Gift Card
+   </div>
+   </div>
+</div>
+
+   <div class="card2">
+    <div class="infos">
+    <div class="hea">
+        <h1 class="headings">
+            Destinations
+        </h1>
+        <p class="paras">City,airport,region,landmark or pro...</p>
+    </div>
+   
+    <div class="headj">
+        <div>
+        <h1 class="headings">
+            Check-in
+        </h1>
+        <p class="paras">Tue, Mar 12</p>
+    </div>
+    <div class="weather">
+        <img src="moon.png" class="img4"/>
+        <p class="paras">1 Night</p>
+    </div>
+    <div class="checkout">
+        <h1 class="headings">Check-out</h1>
+        <p class="paras">Wed , Mar 13</p>
+    </div>
+   </div>
+   <div class="headj">
+    <div>
+    <h1 class="headings">
+        Guests and Rooms
+    </h1>
+    <p class="paras">2 adults, 0 Children ,1 room</p>
+    </div>
+    <div>
+        <span class="coos">&#9660;</span>
+    </div>
+   </div>
+<img src="https://www.freeiconspng.com/uploads/search-icon-png-1.png" class="img5"/>
+
+</div>
+<div class="d-flex flex-row">
+<h1 class="paragraph">star rating</h1>
+
+<div class="back">
+   2 <i class="fas fa-star"></i>
+</div>
+<div class="back">
+    3 <i class="fas fa-star"></i>
+ </div>
+ <div class="back">
+    4 <i class="fas fa-star"></i>
+ </div>
+ <div class="back">
+    5 <i class="fas fa-star"></i>
+ </div>
+</div>
+<div class="checkbox-container">
+<input type="checkbox" id="styledCheckbox" name="myCheckbox" class="styled-checkbox">
+<label for="styledCheckbox" class="checkbox">I'm looking for hand-picked hotels</label>
+</div>
+ </div>
+ <div class="content">
+<h1 class="header">80k</h1>
+<h1 class="headers">Happy customers</h1>
+<div class="line"></div>
+<h1 class="header">600k</h1>
+<h1 class="headers">Hotels worldwide</h1>
+<div class="line"></div>
+<h1 class="header">450+</h1>
+<h1 class="headers">Global Airlines</h1>
+<div class="line"></div>
+<div>
+<h1 class="paragraphs">Download now:</h1><br>
+<div class="cvb">
+<img src="playstore.png" class="img6"/>
+<h1 class="headering">Google play</h1>
+
+</div>
+
+</div>
+
+
+</div>
+<hr/> 
+<div class="heades">
+<div class="contents">
+    <div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaioTm7ruEVDhbTb1nodrhC5ZBXIoRjxGRFTG9ZPpI1w&s" class="img6"/></div>
+<div>
+<h1 class="foohead">Safe and secured Travel</h1>
+<p class="foopara">secured Hotel rooms</p>
+</div>
+</div>
+
+<div class="contents">
+<div>
+    <img src="https://c8.alamy.com/comp/2MXDMDN/customer-support-icon-chat-support-help-editable-vector-2MXDMDN.jpg" class="img6"/></div>
+    <div>
+    <h1 class="foohead">24/7 Travel Assistance</h1>
+    <p class="foopara">customer support</p>
+    </div>
+</div>
+<div class="contents">
+    <div>
+    <img src="https://www.freestock.com/450/freestock_568716067.jpg" class="img6"/></div>
+    <div>
+    <h1 class="foohead">Customized Holidays</h1>
+    <p class="foopara">Tailor made Trips</p>
+    </div>
+</div>
+
+<div class="contents">
+    <div>
+    <img src="https://thumbs.dreamstime.com/b/family-tree-logo-green-blue-leaves-white-background-family-tree-logo-green-blue-leaves-white-background-121662189.jpg" class="img6"/></div>
+    <div>
+    <h1 class="foohead">SAVE</h1>
+    <p class="foopara">Tree Paper</p>
+    
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

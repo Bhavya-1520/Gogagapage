@@ -1,0 +1,374 @@
+.bg{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/027/381/714/large_2x/black-and-white-hand-drawn-pencil-sketch-of-a-mountain-landscape-with-rocky-peaks-in-a-graphic-style-on-a-white-background-silhouette-concept-free-photo.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.head{
+    color:#0A9499;
+    font-family: "Roboto";
+    font-weight: 1500;
+    font-size: 40px;
+    margin: 10px;
+  
+   
+}
+.color{
+    color:#79BE48;
+    font-family: "Roboto";
+    font-weight: 1500;
+    font-size: 40px;
+
+}
+.dashed-box {
+    width: 60px;
+    height: 40px;
+    border: 2px dashed #939FB5;
+    text-align: center;
+    margin: 10px;
+    color: #2F395A;
+    display: inline-block;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 12px;
+}
+.img{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 5px;
+}
+.dashed-box1{
+    width: 100px;
+    height: 40px;
+    border: 2px dashed #939FB5;
+    text-align: center;
+    margin: 10px;
+    color: #2F395A;
+    font-weight: bold;
+    font-size: 12px;
+    
+    
+   
+}
+.cs{
+color: #2F395A;
+font-weight: normal;
+font-size: 12px;
+}
+.dashed-box2{
+    width: 150px;
+    height: 40px;
+    border: 2px dashed #939FB5;
+    background-color: #325BA3;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 15px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+.img1{
+    background-color: #2F395A;
+}
+.dashed-box3{
+    width: 190px;
+    height: 40px;
+    border: 2px dashed #939FB5;
+    margin: 10px;
+    color: #2F395A;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+    
+}
+.coo{
+    color: #2F395A;
+    margin-left: auto;
+}
+    
+.dashed-box4{
+    width: 200px;
+    height: 40px;
+    border: 2px dashed #939FB5;
+    margin: 10px;
+    color: #2F395A;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
+    font-size: 12px;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+.heading{
+    color:#303E61;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.headi{
+    color:#253963;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin: 2px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.cards{
+    color:#303E61;
+    border-radius: 15px;
+    background-color: lightblue;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.img3{
+    height: 30px;
+    width: 30px;
+    background-color: lightblue;
+}
+.card1{
+    color:white;
+    border-radius: 15px;
+    background-color:#345CA7;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.img4{
+    height: 30px;
+    width: 30px;
+    background-color: #345CA7;
+}
+.njj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 70px;
+    width: 800px;
+    text-align: center;
+    border-radius: 20px;
+    position:absolute;
+    z-index: 2;
+
+}
+.card2{
+    background-color: #345CA7;
+    padding: 40px;
+    margin: 30px;
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    width: 1150px;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.headj{
+    height: 70px;
+    width: 270px;
+    padding: 10px;
+    border:2px solid white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hea{
+    height: 70px;
+    width: 270px;
+    padding: 10px;
+    border:2px solid white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.headings{
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Roboto";
+}
+.paras{
+    color: white;
+    font-weight: 900;
+    font-size: 13px;
+    font-family: "Roboto";
+}
+.coos{
+    color: white;
+}
+.img5{
+    height:50px;
+    width: 50px;
+    background-color: white;
+    
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    background-color: lightblue;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.paragraph{
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-left: 20px;
+    padding-left: 70px;
+}
+
+.styled-checkbox:checked::after {
+    content: ''; 
+    display: block; 
+    width: 8px; 
+    height: 8px; 
+    border: 2px solid #345CA7; 
+    border-width: 0 2px 2px 0; 
+    transform: rotate(45deg); 
+    margin-left: 0px; 
+   
+}
+.styled-checkbox {
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background-color: #345CA7; 
+    border: 2px solid white; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-right: 10px;
+    
+}
+.styled-checkbox:checked {
+    background-color: white;
+    
+}
+.checkbox{
+    color: white;
+}
+.checkbox-container {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center; 
+    padding-left: 90px;
+}
+.content{
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+}
+.line::after {
+    content: ''; 
+    display: block; 
+    width: 2px; 
+    height: 100px; 
+    background-color: black;
+    margin-left: 20px; 
+}
+.img6{
+    height: 30px;
+    width: 40px;
+}
+.header{
+    color: #345CA7;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
+}
+.headers{
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.paragraphs{
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+   
+}
+.cvb{
+    display: flex;
+   
+}
+.headering{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    font-size: 20px;
+}
+.contents{
+    display: flex;
+    margin: 10px;
+}
+.foohead{
+    color: #345CA7;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.foopara{
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img7{
+    height: 120px;
+    width: 120px;
+}
